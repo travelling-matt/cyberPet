@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Lobster', cursive;
+}
+
+.body {
+    display:flex;
+    background-color: darkcyan;
+}
+
+#wrapper {
+    min-width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    background-color: darkcyan;
+    overflow: hidden;
+}
+
+#innerWrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+
+    background-color: pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem skyblue;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    padding: 10rem;
+    outline-offset: .75rem;
+}
+
+#cyberPet {
+    display: flex;
+    flex-direction: row;
+    /*min-width: 1fr;
+    max-width: 1fr;
+    padding: 12px 20px;
+    border-width:1px;
+    border-radius: 8px;
+    background: khaki;
+    box-shadow: 3px 3px 0px 0px #C3B091;;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 15px;*/
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    min-width: 1fr;
+    max-width: 1fr;
+    padding: 12px 20px;
+    border-width:1px;
+    border-radius: 8px;
+    background: khaki;
+    box-shadow: 3px 3px 0px 0px #C3B091;;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 15px;
+}
+
+#yes {
+    flex-direction: row;
+    min-width: 100px;
+    padding: 12px 20px;
+    border-width:1px;
+    border-radius: 8px;
+    background: khaki;
+    box-shadow: 3px 3px 0px 0px #C3B091;;
+    text-align: center;
+    font-size: 2em;
+    margin: 15px;
+}
+
+#dice {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px;
+    min-width: 100px;
+    min-height: 100px;
+    /*flex-basis: 1;
+    flex-grow: 1;*/
+}
+
+#rollBtn {
+    /*flex-basis: 1;
+    flex-grow: 1;*/
+    min-width: 100px;
+    padding: 12px 20px;
+    border-width:1px;
+    border-radius: 8px;
+    background: khaki;
+    box-shadow: 3px 3px 0px 0px #C3B091;;
+    text-align: center;
+    font-size: 2em;
+    margin: 15px;
+}
+
+#resetBtn {
+    /*flex-basis: 1;
+    flex-grow: 1;*/
+    min-width: 100px;
+    padding: 21px 17px;
+    border-width:1px;
+    border-radius: 8px;
+    background: khaki;
+    box-shadow: 3px 3px 0px 0px #C3B091;;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 15px;
+    display: none;
+}
+
+img {
+    display: none;
+}
+
+img {
+    display: none;
+}
+
+#arrow {
+    display: block;
+}
